@@ -17,7 +17,6 @@ library(leaflet)
 library(htmlwidgets)
 
 ##################################################################################################
-setwd("/home/alf/Scrivania/alf_github/ogrs_2016_papers/morabito_et_al")
 
 morab_pal_VGARV=c("#00CC00","#FFFF00","#FF7519","#FF0000","#FF00FF")
 morabcols <- colorRampPalette( c(morab_pal_VGARV))(5)
