@@ -17,22 +17,6 @@ library(leaflet)
 library(htmlwidgets)
 
 
-#########################################################################à
-# [1] "COD_REG"                         "COD_CM"                          "COD_PRO"                        
-# [4] "DEN_CMPRO"                       "PROVINCIA"                       "SIGLA"                          
-# [7] "FLAG_CMPRO"                      "Shape_Leng"                      "Shape_Area"                     
-# [10] "cod_prov"                        "provincia"                       "Cs0_12ha"                       
-# [13] "Cs1_12ha"                        "Ca2_12"                          "Cs_12P"                         
-# [16] "Cs0_15ha"                        "Cs1_15ha"                        "Cs2_15P"                        
-# [19] "Cs_15P"                          "D_15.12"                         "I_CS_P"                         
-# [22] "ProvITA_CS_ispra.data.DEN_CMPRO" "Nprov"                           "Sreg"                           
-# [25] "pop2016"                         "Supkmq"                          "density_pop"                    
-# [28] "Ncom"                            "Mean_summer"                     "trend_s"                        
-# [31] "trend_s_up"                      "trend_s_lo"                      "Mean_summer_scaled"             
-# [34] "Cs_15P_scaled"                   "pop2016_scaled"                  "trend_scaled"                   
-# [37] "riskvalue"                       "riskclass"                      
-##################################################################################################à
-
 
 month2season=function(x) {
   res=NA
